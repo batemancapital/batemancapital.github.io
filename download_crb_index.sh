@@ -1,0 +1,17 @@
+curl 'https://markets.tradingeconomics.com/chart?s=crytr:ind&span=max&securify=new&url=commoditycrb&AUTH=qx2GaKNq6yJ%2BSogzsCNXqU0aEVECOmzlIGEiwZ4YgvivStq%2FVjkcc0k2l%2FWugVeO' \
+  -H 'authority: markets.tradingeconomics.com' \
+  -H 'pragma: no-cache' \
+  -H 'cache-control: no-cache' \
+  -H 'sec-ch-ua: "Chromium";v="86", "\"Not\\A;Brand";v="99", "Google Chrome";v="86"' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'dnt: 1' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36' \
+  -H 'origin: https://tradingeconomics.com' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'referer: https://tradingeconomics.com/' \
+  -H 'accept-language: en-US,en;q=0.9,zh-CN;q=0.8,zh-TW;q=0.7,zh;q=0.6' \
+  -H 'sec-gpc: 1' \
+  --compressed

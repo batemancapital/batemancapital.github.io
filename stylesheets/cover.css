@@ -1,0 +1,41 @@
+body {
+  font-family: Georgia;
+  color: #333;
+}
+a {
+  color: #333;
+  font-weight: 600;
+}
+.navi-center{
+  display:flex;
+  flex-direction:row;
+  align-content:center;
+  justify-content:space-around;
+  text-align:center;
+  font-style:Georgia;
+  min-width: 290px;
+  width: 60%;
+  margin: auto;
+}
+.cover-pic {
+  padding-top:10%;
+  padding-bottom:5%;
+  min-width: 290px;
+  width: 50%;
+}
+.center {
+  padding-bottom:20%;
+  min-width: 290px;
+  width: 70%;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #AEB6BF;
+    background-color: #222;
+  }
+  a {
+    color: #707B7C;
+  }
+}
+
+

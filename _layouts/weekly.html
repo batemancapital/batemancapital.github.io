@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{page.title}}</title>
+    <link rel="stylesheet" href="/stylesheets/simple.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div id="content">
+      <h1>{{page.title}}</h1>
+      <h3>{{ page.date | date: '%B %d, %Y' }}</h3>
+      {{content}}
+      <center>
+        <br><br>
+        <a href="/weekly">Weekly</a>
+      </center>
+    </div>
+  </body>
+</html>

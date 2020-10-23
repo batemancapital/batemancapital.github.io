@@ -1,0 +1,9 @@
+.DS_Store
+_site
+*.swp
+*.swo
+Gemfile.lock
+Gemfile
+*.bak
+.metals
+.pids/
